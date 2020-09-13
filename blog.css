@@ -1,0 +1,636 @@
+* {
+    margin: 0;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+
+    background: linear-gradient(154deg, #27faee, #0091ff, #aa00ff, #e200ff);
+    background-size: 800% 800%;
+
+
+    animation: AnimationName 7s ease infinite;
+    flex-grow: 1;
+    
+    
+
+}
+body.descanço {
+    background: linear-gradient(65deg,  rgb(173, 65, 206), rgba(169, 79, 253, 0.912), rgb(46, 112, 235) );
+    background-size: 100% 100%;
+    
+
+    animation: none;
+}
+@keyframes AnimationName {
+    0%{background-position:27% 0%}
+    50%{background-position:74% 100%}
+    100%{background-position:27% 0%}
+}
+/*a-href topo fixo href*/
+#topimg {
+    margin-left: 96%;
+    margin-top: .9%;
+    transition: all .5s;
+   
+}
+/*imagem dentro do a acima ^*/
+#topimg-img {
+    border-bottom-left-radius: 10%;
+    width: 50px;
+}
+/*div-topo*/
+#ttopo {
+    background-color: rgba(0, 0, 255, 0);
+    width: auto;
+    height: auto;
+    margin-top: 9%;
+
+
+    margin-left: 21%;
+}
+/*Titulo-topo*/
+#titulo-topo {
+    font-size: 450%;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 13.3%;
+    color: rgb(0, 0, 0);
+}
+#subtitulo-topo {
+    font-size: 170%;
+    margin-left: 7%;
+    margin-top: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+/*div do select busca rápida*/
+#selec {
+    width: 20%;
+    margin-top: 6%;
+
+    margin-left: 2%;
+
+}
+/*p = Busca rápida */
+#label {
+    font-size: 140%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+/*select da div selec*/
+#oq {
+    font-family: 'Poppins', sans-serif;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+    border: none;
+    margin-left: -.5%;
+    margin-top: 6%;
+    width: 70%;
+    font-size: 100%;
+    transition: all .25s;
+}
+#oq:hover {
+    cursor: pointer;
+    transition: all .25s;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 1px;
+    border-top-left-radius: 1px;
+}
+#oq:active {
+    background:  linear-gradient(65deg,  rgb(173, 65, 206), rgba(169, 79, 253, 0.912), rgb(46, 112, 235) );
+    color: white;
+    transition: all .25s;
+}
+/*input ir do selec*/
+#play {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    cursor: pointer;
+    transition: all .25s;
+    border: none;
+    width: 15%;
+    font-size: 95%;
+    margin-left: -2.5%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#play:hover {
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    background-color: black;
+    color: white;
+    transition: all .25s;
+}
+#play:active {
+    background:  linear-gradient(65deg,  rgb(173, 65, 206), rgba(169, 79, 253, 0.912), rgb(46, 112, 235) );
+    transition: all .25s;
+}
+/*opções do select*/
+.opc {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: white ;
+    color: black;
+}
+/*modo suave div*/
+#div-suave {
+    background:  linear-gradient(65deg,  rgb(173, 65, 206), rgb(143, 36, 243), rgb(46, 112, 235) );
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 16%;
+    width: 20%;
+    height: 50px;
+
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+    color: white;
+    margin-left: 0%;
+}
+#div-suave.div-suave {
+    background: black;
+}
+#modo-suave-p {
+    margin-left: 2%;
+
+}
+#area-suave {
+    border-radius: 20px;
+    width: 60px;
+    margin-top: -5%;
+    margin-left: 55%;
+    height: 25px;
+    transition: all .5s;
+    background-color: black;
+}
+#area-suave.area {
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
+}
+#area-suave:hover {
+    cursor: pointer;
+}
+#bt-suave {
+    height: 100%;
+    width: 26px;
+    margin-left: -1%;
+    border-radius: 100%;
+    transition: all .5s;
+    background-color: white;
+}
+#bt-suave:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+#bt-suave.bt-suave-active {
+    margin-left: 58.5%;
+    background:  linear-gradient(65deg,  rgb(173, 65, 206), rgb(143, 36, 243), rgb(46, 112, 235) );
+}
+/*modo daltônico*/
+#div-daltonico {
+    background: rgba(0, 0, 0, 0) ;
+
+
+    width: 20%;
+    height: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+    color: white;
+    margin-left: -5%;
+    margin-top: 2%;
+    position: fixed;
+}
+#area-descanço {
+    border-radius: 20px;
+    width: 60px;
+    margin-top: -5%;
+    margin-left: 55%;
+    height: 25px;
+    transition: all .5s;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+#area-descanço:hover {
+    cursor: pointer;
+}
+#bt-descanço {
+    height: 100%;
+    width: 26px;
+    margin-left: -1%;
+    border-radius: 100%;
+    transition: all .5s;
+    background: white;
+}
+#bt-descanço:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+#bt-descanço.bt-descanço-active {
+    margin-left: 58.5%;
+    background:  white;
+}
+/*section content*/
+#content {
+    width: 100%;
+    height: auto;
+    margin-top: -3%;
+    border-top-right-radius: 20px;
+    transition: all .5s;
+    border-top-left-radius: 2px;
+    background: rgba(0, 0, 0, 0);
+}
+#content.content-suave {
+    background:  rgb(0, 0, 0);
+    transition: all .5s;
+}
+/*quem somos h1*/
+#quem-somos-h1 {
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+    color: white;
+    font-size: 320%;
+    margin-top: 5%;
+    margin-left: 0%;
+    opacity: 1%;
+}
+#quem-somos-h1.quem-somos-h1-scroll {
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+    color: white;
+    font-size: 320%;
+    margin-top: 5%;
+    margin-left: 36%;
+    opacity: 100%;
+}
+#quem-somos-p {
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+    width: 50%;
+    opacity: 0%;
+    margin-left: 0%;
+    font-size: 140%;
+    color: white;
+}
+#quem-somos-p.quem-somos-p-scroll {
+
+    transition: all .5s;
+    opacity: 100%;
+    margin-left: 25%;
+
+}
+#serviços-h1 {
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+    color: white;
+    font-size: 310%;
+    margin-top: 5%;
+    margin-left: 0%;
+    opacity: 1%;
+}
+#serviços-h1.scrolly {
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+    color: white;
+    font-size: 350%;
+    margin-top: 5%;
+    margin-left: 40%;
+    opacity: 100%;
+}
+#siteicon {
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*topo e loading*/
+#topo.menuFixo{
+    width: 100%;
+    height: 52px;outline:none;
+   /* display: flex;*/  
+    justify-content: center;    flex-grow: 1;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.699);
+    overflow: hidden;
+    position: fixed ;  
+    transition: all .5s;
+}
+
+#topo {
+    width: 100%;
+    height: 50px;outline:none;
+    display: flex;
+    justify-content: center;    flex-grow: 1;
+    color: white;
+    align-items: center;
+    background-color: rgba(155, 151, 151, 0);
+    transition: all .5s;
+    position: fixed ;
+    overflow: hidden;
+}
+
+#topo ul {
+    list-style: none;
+    margin: 0;
+    position: absolute ;    flex-grow: 1;
+    text-decoration: none;
+    cursor: pointer;outline:none;
+    transition: all .4s;
+
+    text-align: center;
+
+
+
+}
+
+#topo ul li {
+    display: inline-block;
+    list-style: none;
+    display: inline;outline:none;
+
+    text-decoration: none;
+
+    flex-grow: 1;
+}
+#topo ul li a {
+    padding: 10px 51px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);outline:none;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+    flex-grow: 1;
+    border-radius: 1px;
+}
+#topo.menuFixo ul li a {
+    padding: 10px 50px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;outline:none;
+    flex-grow: 1;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .4s;
+    
+}
+#topo ul li a:hover {
+    color:rgb(255, 255, 255) ;
+    transition: color .3;outline:none;
+    background-color: rgba(0, 0, 0, 0.678);
+    flex-grow: 1;
+    
+    transition:  background-color .5s;
+    
+
+    
+
+}
+#topo.menuFixo ul li a:hover {
+    color: rgb(61, 78, 235);outline:none;
+    transition: color .3;
+    background-color: rgb(255, 255, 255);
+    
+    flex-grow: 1;
+    transition:  background-color .5s;
+    
+
+    
+
+}
+#iii {
+    border-bottom: 2px solid rgb(255, 255, 255);outline:none;
+    transition: all .2s;    flex-grow: 1;
+}
+
+::-webkit-scrollbar {
+    width: 5px;outline:none;
+    flex-grow: 1;
+}
+
+::-webkit-scrollbar-track {
+    background:  rgba(255, 255, 255, 0);
+    transition: all .5s;    flex-grow: 1;outline:none;
+}
+
+  
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    transition: all .5s;    flex-grow: 1;outline:none;
+    border-radius: 10px;
+    background-color: rgba(8, 8, 8, 0.534);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+    border-radius: 20px;
+    transition: all .5s;    flex-grow: 1;outline:none;
+    background-color: rgb(8, 8, 8);
+}
+
+.titulo-content {
+    font-family: 'Questrial', sans-serif;    flex-grow: 1;
+    font-size: 20px;outline:none;
+}
+
+.pace {
+    -webkit-pointer-events: none;    flex-grow: 1;outline:none;
+    pointer-events: none;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;    flex-grow: 1;outline:none;
+}
+  
+.pace-inactive {
+    display: none;
+    flex-grow: 1;outline:none;
+}
+  
+.pace .pace-progress {
+    background:  linear-gradient(65deg,  rgb(173, 65, 206), rgba(169, 79, 253, 0.912), rgb(46, 112, 235) );
+    position: fixed;
+    z-index: 2000;
+    top: 0;    flex-grow: 1;outline:none;
+    right: 100%;
+    width: 100%;
+    height: 3px;
+}
+/*avisos*/
+#telacheia {
+    background-color: white;
+    font-family: 'Poppins', 'sans-serif';
+    height: 100px;
+    box-shadow: 0px 0px 6.5px rgba(0, 0, 0, 0.16);
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 4px; 
+    position: fixed;
+    top: 83%;
+    left: 200%;
+    transition: all .5s;
+}
+#telacheia.pop {
+    left: 70%;
+    transition: all .5s;
+}
+#close {
+    color: rgb(255, 255, 255);
+    width: 20px;
+    font-size: 17px;
+    text-align: center;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px; 
+    background-color: rgb(255, 0, 0) ;
+    font-family: 'Poppins', 'sans-serif';
+}
+#close:hover {
+    font-size: 17.5px;
+    color: black;
+    cursor: pointer;
+
+}
+#avisodescanço {
+    background-color: white;
+    font-family: 'Poppins', 'sans-serif';
+    position: fixed;
+    top: 83%;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 6.5px rgba(0, 0, 0, 0.16);
+
+    border-bottom-right-radius: 10px;
+    transition: all .5s;
+    width: 500px;
+    height: 100px;
+    right: 200%;
+}
+#avisodescanço.pop {
+    right: 60.8%;
+    transition: all .5s;
+}
+#close2 {
+    color: rgb(255, 255, 255);
+    width: 20px;
+    font-size: 17px;
+    text-align: center;
+    border-bottom-right-radius: 4px;
+    background-color: rgb(255, 0, 0) ;
+    font-family: 'Poppins', 'sans-serif';
+}
+#close2:hover {
+    font-size: 17.5px;
+    color: black;
+    cursor: pointer;
+
+}
+#ativar {
+    color: white;
+    margin-top: -5.2%;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px; 
+    margin-left: 89.05%;
+    width: 55px;
+    background-color: rgb(10, 191, 10);
+}
+#ativar:hover {
+    color: black;
+    cursor: pointer;
+}
+#seta {
+    width: 50px;
+    transform: rotate(-90deg);
+    position: fixed;    
+    margin-top: -44%;
+    left: 220%;
+    transition: all .5s;
+}
+div#voltar {
+    background-color: rgba(0, 0, 0, 0.26) ;
+    color: rgb(255, 255, 255);
+    font-family: 'MuseoModerno', cursive;
+    margin-left: 96.4%;
+    text-align: center;
+    font-size: 60px;
+    position: fixed ;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.301);
+    cursor: pointer;
+    width: 40px;
+    margin-top: -35%;
+    transition: all 1s;
+    height: 40px;
+    border-radius: 100%;
+}
+#olho {
+    width: 20px;
+    border-radius: 100%;
+    margin-top: 15%;
+    margin-left: 7%;
+}
+/*
+font-family: 'Kanit', sans-serif;
+
+font-family: 'Montserrat Subrayada', sans-serif;
+
+font-family: 'Orbitron', sans-serif;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'MuseoModerno', cursive;
+
+font-family: 'Questrial', sans-serif;
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+rgb(195, 130, 91)
+
+background: linear-gradient(to right, blue 50%, red 0);
+    background: linear-gradient(to right, rgba(0, 126, 174, .85), rgba(26, 193, 187, .85))
+
+
+
+
+
+
+        border-left-width: 3px;
+    border-left-style: solid;
+    border-image: 
+    linear-gradient(65deg,  rgb(190, 16, 243), rgba(169, 79, 253, 0.912), rgb(46, 112, 235) ) 1 100%;
+
+*/
